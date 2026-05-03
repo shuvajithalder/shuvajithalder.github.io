@@ -1,1 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Name | Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background: #0f172a;
+      color: #e2e8f0;
+    }
+    header {
+      padding: 2rem;
+      text-align: center;
+      background: #020617;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    header p {
+      color: #94a3b8;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      margin-top: 1rem;
+    }
+    nav a {
+      color: #38bdf8;
+      text-decoration: none;
+      font-weight: 500;
+    }
+    section {
+      padding: 4rem 2rem;
+      max-width: 900px;
+      margin: auto;
+    }
+    h2 {
+      border-bottom: 1px solid #1e293b;
+      padding-bottom: 0.5rem;
+    }
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+    }
+    .card {
+      background: #020617;
+      padding: 1.5rem;
+      border-radius: 1rem;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+    }
+    footer {
+      text-align: center;
+      padding: 2rem;
+      background: #020617;
+      color: #64748b;
+    }
+    .btn {
+      display: inline-block;
+      margin-top: 1rem;
+      padding: 0.5rem 1rem;
+      border-radius: 0.5rem;
+      background: #38bdf8;
+      color: #020617;
+      text-decoration: none;
+      font-weight: 600;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Your Name</h1>
+    <p>Software Developer | Designer | Problem Solver</p>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
 
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      Write a short introduction about yourself. Highlight your skills, experience,
+      and what you're passionate about.
+    </p>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="projects">
+      <div class="card">
+        <h3>Project One</h3>
+        <p>Short description of your project.</p>
+        <a href="#" class="btn">View</a>
+      </div>
+      <div class="card">
+        <h3>Project Two</h3>
+        <p>Short description of your project.</p>
+        <a href="#" class="btn">View</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: your.email@example.com</p>
+    <p>GitHub: github.com/yourusername</p>
+    <p>LinkedIn: linkedin.com/in/yourprofile</p>
+  </section>
+
+  <footer>
+    <p>© 2026 Your Name. All rights reserved.</p>
+  </footer>
+</body>
+</html>
