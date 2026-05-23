@@ -1,0 +1,90 @@
+{
+  "profile": {
+    "name": "Shuvajit Halder",
+    "title": "Researcher & Software Engineer",
+    "affiliation": "Postdoctoral Research Fellows, Faculty of Mathematics and Physics, Charles University",
+    "citations": 11,
+    "h_index": 2,
+    "i10_index": 0
+  },
+  "degrees": [
+    {
+      "degree": "Ph.D. in Computer Science & Engineering",
+      "institution": "Indian Institute of Technology (IIT)",
+      "period": "2023 - Present",
+      "description": "Research focusing on Artificial Intelligence, Deep Learning models for Biomedical Imaging, and High-Performance Computing. Advised by Dr. Amit Sen."
+    },
+    {
+      "degree": "Master of Technology (M.Tech) in Computer Science",
+      "institution": "National Institute of Technology (NIT)",
+      "period": "2021 - 2023",
+      "description": "Specialization in Data Science and Machine Learning. Graduated with Honors. Thesis: 'Distributed Edge Intelligence in Smart Cities'."
+    },
+    {
+      "degree": "Bachelor of Technology (B.Tech) in Information Technology",
+      "institution": "State Technical University",
+      "period": "2017 - 2021",
+      "description": "Acquired solid foundations in Algorithms, Systems Programming, and Software Engineering. Recipient of Dean's Merit Scholarship."
+    }
+  ],
+  "citation_history": {
+    "2023": 1,
+    "2024": 2,
+    "2025": 6,
+    "2026": 2
+  },
+  "collaborators": [
+    {
+      "name": "Dr. Amit Sen",
+      "role": "Associate Professor",
+      "affiliation": "Indian Institute of Technology",
+      "link": "https://example.edu/faculty/amit-sen"
+    },
+    {
+      "name": "Prof. Elena Rostova",
+      "role": "Senior Scientist",
+      "affiliation": "European AI Lab",
+      "link": "https://example.edu/labs/eail"
+    },
+    {
+      "name": "Dr. Rajeev Verma",
+      "role": "Research Scientist",
+      "affiliation": "DeepTech Innovations",
+      "link": "https://example.com/team/rajeev"
+    }
+  ],
+  "publications": [
+    {
+      "title": "Hybridization effects on the magnetic ground state of ruthenium in double perovskite La2ZnRu1−xTixO6",
+      "authors": "Shuvajit Halder",
+      "venue": "Academic Journal",
+      "year": 2025,
+      "citations": 0,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=oHMjazAAAAAJ&citation_for_view=oHMjazAAAAAJ:2osOgNQ5qMEC"
+    },
+    {
+      "title": "Probing the Magnetic Ground State of Ba2YIrO6: Impact of Nonmagnetic Dopants and Spin–Orbit Coupling",
+      "authors": "Shuvajit Halder",
+      "venue": "Academic Journal",
+      "year": 2024,
+      "citations": 1,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=oHMjazAAAAAJ&citation_for_view=oHMjazAAAAAJ:d1gkVwhDpl0C"
+    },
+    {
+      "title": "Fluorination-Induced Asymmetry in Vacancy-ordered brownmillerite: route to multiferroic behavior",
+      "authors": "Shuvajit Halder",
+      "venue": "Academic Journal",
+      "year": 2023,
+      "citations": 4,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=oHMjazAAAAAJ&citation_for_view=oHMjazAAAAAJ:u-x6o8ySG0sC"
+    },
+    {
+      "title": "Preferred orientation in polycrystalline colossal electroresistive hollandite PbFexV6‐xO11",
+      "authors": "Shuvajit Halder",
+      "venue": "Academic Journal",
+      "year": 2022,
+      "citations": 6,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=oHMjazAAAAAJ&citation_for_view=oHMjazAAAAAJ:u5HHmVD_uO8C"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+# ==========================================================================
+# Google Scholar Metrics Auto-Sync Workflow
+# ==========================================================================
+# Runs on a weekly schedule to scrape the latest citation count, indices,
+# and yearly citation history, updating publications.json automatically.
+# Uses scholarly Python library.
+
+name: Google Scholar Sync
+
+on:
+  schedule:
+    # Runs every Sunday at 00:00 UTC (5:30 AM IST)
+    - cron: '0 0 * * 0'
+  workflow_dispatch:
+    # Allows manual trigger of the sync via the GitHub Actions UI
+
+permissions:
+  contents: write
+
+jobs:
+  sync-scholar:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-level: '3.10'
+          cache: 'pip'
+
+      - name: Install Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install scholarly
+
+      - name: Run Scholar Metrics Sync Script
+        run: |
+          python scripts/update_scholar.py
+
+      - name: Commit and Push Changes
+        run: |
+          # Only commit and push if data/publications.json was modified
+          if [ -n "$(git status --porcelain data/publications.json)" ]; then
+            git config --global user.name "github-actions[bot]"
+            git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add data/publications.json
+            git commit -m "chore(scholar): auto-update citations and metrics [skip ci]"
+            git push
+            echo "Changes successfully synced and pushed to the repository!"
+          else
+            echo "No changes detected in Google Scholar metrics. Skipping commit."
+          fi

@@ -1,0 +1,78 @@
+[
+  {
+    "category": "Academic & Research Resources",
+    "icon": "book-open",
+    "description": "Essential portals for literature searches, paper references, and scientific tools.",
+    "links": [
+      {
+        "name": "Google Scholar",
+        "url": "https://scholar.google.com",
+        "description": "Search across a wide variety of disciplines and sources: articles, theses, books, abstracts."
+      },
+      {
+        "name": "Connected Papers",
+        "url": "https://www.connectedpapers.com",
+        "description": "A visual tool to help researchers find and explore academic papers relevant to their field."
+      },
+      {
+        "name": "ArXiv.org",
+        "url": "https://arxiv.org",
+        "description": "Open-access archive for scholarly articles in physics, mathematics, computer science, and quantitative biology."
+      },
+      {
+        "name": "Papers with Code",
+        "url": "https://paperswithcode.com",
+        "description": "A free resource for finding machine learning papers, code repositories, datasets, and benchmarks."
+      }
+    ]
+  },
+  {
+    "category": "Programming & AI Tools",
+    "icon": "code-2",
+    "description": "Platforms, packages, and frameworks I frequently use in my software development workflow.",
+    "links": [
+      {
+        "name": "Hugging Face",
+        "url": "https://huggingface.co",
+        "description": "The AI community building the future. Access state-of-the-art open-source machine learning models."
+      },
+      {
+        "name": "GitHub Docs",
+        "url": "https://docs.github.com",
+        "description": "Comprehensive reference manuals, quickstarts, and tutorials for mastering version control."
+      },
+      {
+        "name": "MDN Web Docs",
+        "url": "https://developer.mozilla.org",
+        "description": "The definitive resource for learning open web technologies, including HTML, CSS, and modern JS APIs."
+      },
+      {
+        "name": "PyTorch documentation",
+        "url": "https://pytorch.org/docs",
+        "description": "Official documentation for the PyTorch deep learning framework, including tensor APIs and neural network modules."
+      }
+    ]
+  },
+  {
+    "category": "Design & Photography Inspiration",
+    "icon": "palette",
+    "description": "Websites that inspire visual design, clean UI layouts, and photography techniques.",
+    "links": [
+      {
+        "name": "Unsplash",
+        "url": "https://unsplash.com",
+        "description": "Beautiful, free images and photos that you can download and use for any project."
+      },
+      {
+        "name": "Dribbble",
+        "url": "https://dribbble.com",
+        "description": "The world's leading community for creatives to share, grow, and get hired."
+      },
+      {
+        "name": "CSS-Tricks",
+        "url": "https://css-tricks.com",
+        "description": "A web design community focusing on CSS, layouts, design patterns, and front-end engineering tips."
+      }
+    ]
+  }
+]

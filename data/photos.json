@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "title": "Alpine Serenity",
+    "category": "Nature",
+    "url": "assets/images/gallery/photo1.jpg",
+    "thumbnail": "assets/images/gallery/photo1.jpg",
+    "fallback_url": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1200&q=80",
+    "fallback_thumb": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=600&q=80",
+    "description": "Majestic snow-capped mountain peaks reflecting the early morning sun.",
+    "location": "Dolomites, Italy",
+    "date": "2025-06"
+  },
+  {
+    "id": 2,
+    "title": "Geometric Canopy",
+    "category": "Architecture",
+    "url": "assets/images/gallery/photo2.jpg",
+    "thumbnail": "assets/images/gallery/photo2.jpg",
+    "fallback_url": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1200&q=80",
+    "fallback_thumb": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=600&q=80",
+    "description": "Abstract perspective of modern glass skyscrapers reaching towards the blue sky.",
+    "location": "Tokyo, Japan",
+    "date": "2025-10"
+  },
+  {
+    "id": 3,
+    "title": "Neon Monsoon",
+    "category": "Urban",
+    "url": "assets/images/gallery/photo3.jpg",
+    "thumbnail": "assets/images/gallery/photo3.jpg",
+    "fallback_url": "https://images.unsplash.com/photo-1515621061946-eff1c2a352bd?auto=format&fit=crop&w=1200&q=80",
+    "fallback_thumb": "https://images.unsplash.com/photo-1515621061946-eff1c2a352bd?auto=format&fit=crop&w=600&q=80",
+    "description": "Neon lights reflecting on wet streets during a heavy summer downpour.",
+    "location": "Shibuya, Tokyo",
+    "date": "2025-10"
+  },
+  {
+    "id": 4,
+    "title": "Golden Dunes",
+    "category": "Nature",
+    "url": "assets/images/gallery/photo4.jpg",
+    "thumbnail": "assets/images/gallery/photo4.jpg",
+    "fallback_url": "https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?auto=format&fit=crop&w=1200&q=80",
+    "fallback_thumb": "https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?auto=format&fit=crop&w=600&q=80",
+    "description": "Wind-swept sand ridges creating natural curves in the golden desert.",
+    "location": "Sahara Desert",
+    "date": "2024-11"
+  },
+  {
+    "id": 5,
+    "title": "Silent Pathway",
+    "category": "Travel",
+    "url": "assets/images/gallery/photo5.jpg",
+    "thumbnail": "assets/images/gallery/photo5.jpg",
+    "fallback_url": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=80",
+    "fallback_thumb": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=600&q=80",
+    "description": "A secluded tropical wooden boardwalk leading into a calm turquoise sea.",
+    "location": "Maldives",
+    "date": "2025-02"
+  },
+  {
+    "id": 6,
+    "title": "Historical Echoes",
+    "category": "Architecture",
+    "url": "assets/images/gallery/photo6.jpg",
+    "thumbnail": "assets/images/gallery/photo6.jpg",
+    "fallback_url": "https://images.unsplash.com/photo-1552832230-c0197dd311b5?auto=format&fit=crop&w=1200&q=80",
+    "fallback_thumb": "https://images.unsplash.com/photo-1552832230-c0197dd311b5?auto=format&fit=crop&w=600&q=80",
+    "description": "The dramatic arches of the ancient Colosseum captured at sunset.",
+    "location": "Rome, Italy",
+    "date": "2025-06"
+  }
+]
