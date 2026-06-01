@@ -125,6 +125,15 @@ function renderTimeline(degrees, container) {
 /* --------------------------------------------------------------------------
    4. Render Publications
    -------------------------------------------------------------------------- */
+function formatChemicalFormula(text) {
+  if (!text) return '';
+  // Formats chemical formulas: matches element symbols followed by digits or algebraic subscripts (like 2, 6, x, 1-x, (1-x))
+  // supports standard hyphens, unicode minuses, and optional parentheses.
+  return text.replace(/([A-Z][a-z]?)(1−x|1-x|2−x|2-x|\(1−x\)|\(1-x\)|\(2−x\)|\(2-x\)|\(x\)|[0-9]+‐x|[0-9]+-x|[0-9]+−x|[0-9]+|[xXyYδδ])/g, (match, element, subscript) => {
+    return `${element}<sub>${subscript}</sub>`;
+  });
+}
+
 function renderPublications(publications, container) {
   if (!container) return;
   container.innerHTML = '';
@@ -133,9 +142,9 @@ function renderPublications(publications, container) {
     const pubCard = document.createElement('div');
     pubCard.className = 'card pub-card';
     pubCard.innerHTML = `
-      <h4 class="pub-title">${pub.title}</h4>
+      <h4 class="pub-title">${formatChemicalFormula(pub.title)}</h4>
       <div class="pub-authors">${pub.authors}</div>
-      <div class="pub-venue">${pub.venue}, ${pub.year}</div>
+      <div class="pub-venue">${formatChemicalFormula(pub.venue)}, ${pub.year}</div>
       <div class="pub-meta">
         <span class="pub-citation-count">Cited by ${pub.citations}</span>
         <a href="${pub.link}" target="_blank" rel="noopener noreferrer" class="pub-link">

@@ -35,29 +35,35 @@
   },
   "collaborators": [
     {
-      "name": "Dr. Amit Sen",
-      "role": "Associate Professor",
-      "affiliation": "Indian Institute of Technology",
-      "link": "https://example.edu/faculty/amit-sen"
+      "name": "Prof. Sugata Ray",
+      "role": "Professor & Supervisor",
+      "affiliation": "Indian Association for the Cultivation of Science (IACS)",
+      "link": "https://scholar.google.com/citations?user=n5f1GvYAAAAJ"
     },
     {
-      "name": "Prof. Elena Rostova",
-      "role": "Senior Scientist",
-      "affiliation": "European AI Lab",
-      "link": "https://example.edu/labs/eail"
+      "name": "Prof. Carlo Meneghini",
+      "role": "Professor",
+      "affiliation": "Roma Tre University, Rome, Italy",
+      "link": "https://scholar.google.com/citations?user=4yD-t60AAAAJ"
     },
     {
-      "name": "Dr. Rajeev Verma",
-      "role": "Research Scientist",
-      "affiliation": "DeepTech Innovations",
-      "link": "https://example.com/team/rajeev"
+      "name": "Prof. Fabrice Bert",
+      "role": "Professor",
+      "affiliation": "Université Paris-Saclay, France",
+      "link": "https://scholar.google.com/citations?user=9_2lFmUAAAAJ"
+    },
+    {
+      "name": "Dr. Md. Salman Khan",
+      "role": "Researcher",
+      "affiliation": "Indian Association for the Cultivation of Science (IACS)",
+      "link": "https://scholar.google.com/citations?user=51jMog8AAAAJ"
     }
   ],
   "publications": [
     {
       "title": "Hybridization effects on the magnetic ground state of ruthenium in double perovskite La2ZnRu1−xTixO6",
       "authors": "Shuvajit Halder",
-      "venue": "Academic Journal",
+      "venue": "Journal of Physics: Condensed Matter",
       "year": 2025,
       "citations": 0,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=oHMjazAAAAAJ&citation_for_view=oHMjazAAAAAJ:2osOgNQ5qMEC"
@@ -65,7 +71,7 @@
     {
       "title": "Probing the Magnetic Ground State of Ba2YIrO6: Impact of Nonmagnetic Dopants and Spin–Orbit Coupling",
       "authors": "Shuvajit Halder",
-      "venue": "Academic Journal",
+      "venue": "Materials",
       "year": 2024,
       "citations": 1,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=oHMjazAAAAAJ&citation_for_view=oHMjazAAAAAJ:d1gkVwhDpl0C"
@@ -73,7 +79,7 @@
     {
       "title": "Fluorination-Induced Asymmetry in Vacancy-ordered brownmillerite: route to multiferroic behavior",
       "authors": "Shuvajit Halder",
-      "venue": "Academic Journal",
+      "venue": "Chemistry of Materials",
       "year": 2023,
       "citations": 4,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=oHMjazAAAAAJ&citation_for_view=oHMjazAAAAAJ:u-x6o8ySG0sC"
@@ -81,7 +87,7 @@
     {
       "title": "Preferred orientation in polycrystalline colossal electroresistive hollandite PbFexV6‐xO11",
       "authors": "Shuvajit Halder",
-      "venue": "Academic Journal",
+      "venue": "International Journal of Ceramic Engineering & Science",
       "year": 2022,
       "citations": 6,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=oHMjazAAAAAJ&citation_for_view=oHMjazAAAAAJ:u5HHmVD_uO8C"
