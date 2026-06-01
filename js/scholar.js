@@ -178,6 +178,8 @@ function renderCollaborators(collaborators, container) {
     collabCard.rel = 'noopener noreferrer';
     collabCard.innerHTML = `
       <div class="collab-name">${collab.name}</div>
+      <div class="collab-role">${collab.role}</div>
+      <div class="collab-aff">${collab.affiliation}</div>
     `;
     container.appendChild(collabCard);
   });
