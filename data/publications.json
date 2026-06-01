@@ -9,22 +9,22 @@
   },
   "degrees": [
     {
-      "degree": "Ph.D. in Computer Science & Engineering",
-      "institution": "Indian Institute of Technology (IIT)",
-      "period": "2023 - Present",
-      "description": "Research focusing on Artificial Intelligence, Deep Learning models for Biomedical Imaging, and High-Performance Computing. Advised by Dr. Amit Sen."
+      "degree": "Ph.D. in Experimental Condensed Matter Physics",
+      "institution": "Indian Association for the Cultivation of Sciences (IACS), Kolkata, India",
+      "period": "2017 - 2024",
+      "description": "Exploring Quantum Materials through integrated approaches combining synthesis, structural characterization, transport phenomena, magnetism, heat capacity, and advanced spectroscopy techniques."
     },
     {
-      "degree": "Master of Technology (M.Tech) in Computer Science",
-      "institution": "National Institute of Technology (NIT)",
-      "period": "2021 - 2023",
-      "description": "Specialization in Data Science and Machine Learning. Graduated with Honors. Thesis: 'Distributed Edge Intelligence in Smart Cities'."
+      "degree": "Master of Science (M.Sc) in Physics",
+      "institution": "University of Calcutta",
+      "period": "2015 - 2017",
+      "description": "Specialization in Materials Science."
     },
     {
-      "degree": "Bachelor of Technology (B.Tech) in Information Technology",
-      "institution": "State Technical University",
-      "period": "2017 - 2021",
-      "description": "Acquired solid foundations in Algorithms, Systems Programming, and Software Engineering. Recipient of Dean's Merit Scholarship."
+      "degree": "Bachelor of Science (B.Sc)",
+      "institution": "University of Calcutta",
+      "period": "2012 - 2015",
+      "description": "Physics (Honours)"
     }
   ],
   "citation_history": {
