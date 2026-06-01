@@ -128,8 +128,8 @@ function renderTimeline(degrees, container) {
 function formatChemicalFormula(text) {
   if (!text) return '';
   // Formats chemical formulas: matches element symbols followed by digits or algebraic subscripts (like 2, 6, x, 1-x, (1-x))
-  // supports standard hyphens, unicode minuses, and optional parentheses.
-  return text.replace(/([A-Z][a-z]?)(1−x|1-x|2−x|2-x|\(1−x\)|\(1-x\)|\(2−x\)|\(2-x\)|\(x\)|[0-9]+‐x|[0-9]+-x|[0-9]+−x|[0-9]+|[xXyYδδ])/g, (match, element, subscript) => {
+  // excludes single-letter y/Y to avoid corrupting standard English words (e.g. Physics, Hybridisation, symmetry)
+  return text.replace(/([A-Z][a-z]?)(1−x|1-x|2−x|2-x|\(1−x\)|\(1-x\)|\(2−x\)|\(2-x\)|\(x\)|[0-9]+‐x|[0-9]+-x|[0-9]+−x|[0-9]+|x|δ)/g, (match, element, subscript) => {
     return `${element}<sub>${subscript}</sub>`;
   });
 }
@@ -167,7 +167,10 @@ function renderCollaborators(collaborators, container) {
   if (!container) return;
   container.innerHTML = '';
 
-  collaborators.forEach(collab => {
+  // Only include professors (names starting with Prof.)
+  const professors = collaborators.filter(collab => collab.name.startsWith('Prof.'));
+
+  professors.forEach(collab => {
     const collabCard = document.createElement('a');
     collabCard.className = 'card collab-card';
     collabCard.href = collab.link;
@@ -175,8 +178,6 @@ function renderCollaborators(collaborators, container) {
     collabCard.rel = 'noopener noreferrer';
     collabCard.innerHTML = `
       <div class="collab-name">${collab.name}</div>
-      <div class="collab-role">${collab.role}</div>
-      <div class="collab-aff">${collab.affiliation}</div>
     `;
     container.appendChild(collabCard);
   });
