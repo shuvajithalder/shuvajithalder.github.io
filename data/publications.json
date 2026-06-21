@@ -3,7 +3,7 @@
     "name": "Shuvajit Halder",
     "title": "Researcher & Software Engineer",
     "affiliation": "Postdoctoral Research Fellows, Faculty of Mathematics and Physics, Charles University",
-    "citations": 11,
+    "citations": 12,
     "h_index": 2,
     "i10_index": 0
   },
@@ -31,7 +31,7 @@
     "2023": 1,
     "2024": 2,
     "2025": 6,
-    "2026": 2
+    "2026": 3
   },
   "collaborators": [
     {
@@ -75,7 +75,7 @@
     {
       "title": "Hybridization effects on the magnetic ground state of ruthenium in double perovskite La2ZnRu1−xTixO6",
       "authors": "Shuvajit Halder",
-      "venue": "Journal of Physics: Condensed Matter",
+      "venue": "Academic Journal",
       "year": 2025,
       "citations": 0,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=oHMjazAAAAAJ&citation_for_view=oHMjazAAAAAJ:2osOgNQ5qMEC"
@@ -83,7 +83,7 @@
     {
       "title": "Probing the Magnetic Ground State of Ba2YIrO6: Impact of Nonmagnetic Dopants and Spin–Orbit Coupling",
       "authors": "Shuvajit Halder",
-      "venue": "Materials",
+      "venue": "Academic Journal",
       "year": 2024,
       "citations": 1,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=oHMjazAAAAAJ&citation_for_view=oHMjazAAAAAJ:d1gkVwhDpl0C"
@@ -91,7 +91,7 @@
     {
       "title": "Fluorination-Induced Asymmetry in Vacancy-ordered brownmillerite: route to multiferroic behavior",
       "authors": "Shuvajit Halder",
-      "venue": "Chemistry of Materials",
+      "venue": "Academic Journal",
       "year": 2023,
       "citations": 4,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=oHMjazAAAAAJ&citation_for_view=oHMjazAAAAAJ:u-x6o8ySG0sC"
@@ -99,9 +99,9 @@
     {
       "title": "Preferred orientation in polycrystalline colossal electroresistive hollandite PbFexV6‐xO11",
       "authors": "Shuvajit Halder",
-      "venue": "International Journal of Ceramic Engineering & Science",
+      "venue": "Academic Journal",
       "year": 2022,
-      "citations": 6,
+      "citations": 7,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=oHMjazAAAAAJ&citation_for_view=oHMjazAAAAAJ:u5HHmVD_uO8C"
     }
   ]
