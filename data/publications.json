@@ -3,7 +3,7 @@
     "name": "Shuvajit Halder",
     "title": "Researcher & Software Engineer",
     "affiliation": "Postdoctoral Research Fellows, Faculty of Mathematics and Physics, Charles University",
-    "citations": 12,
+    "citations": 13,
     "h_index": 2,
     "i10_index": 0
   },
@@ -31,7 +31,7 @@
     "2023": 1,
     "2024": 2,
     "2025": 6,
-    "2026": 3
+    "2026": 4
   },
   "collaborators": [
     {
@@ -72,6 +72,14 @@
     }
   ],
   "publications": [
+    {
+      "title": "Strongly quenched Kramers doublet magnetism in ",
+      "authors": "Shuvajit Halder",
+      "venue": "Academic Journal",
+      "year": 2026,
+      "citations": 1,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=oHMjazAAAAAJ&citation_for_view=oHMjazAAAAAJ:qjMakFHDy7sC"
+    },
     {
       "title": "Hybridization effects on the magnetic ground state of ruthenium in double perovskite La2ZnRu1−xTixO6",
       "authors": "Shuvajit Halder",
